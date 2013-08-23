@@ -39,6 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Comment.cs" />
+    <Compile Include="IPageLocation.cs" />
+    <Compile Include="IPageLocator.cs" />
+    <Compile Include="PageEntry.cs" />
+    <Compile Include="PageLocator.cs" />
+    <Compile Include="PageState.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
