@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<package >
+<package>
   <metadata>
-    <id>blog-dot-net</id>
+    <id>blog-dot-net-core</id>
     <version>0.0.1-alpha</version>
     <authors>Manuel Grundner</authors>
     <owners>Manuel Grundner</owners>
@@ -12,7 +12,7 @@
     <description>blog-dot-net is a text centric, decentralized blog engine driven by your favorite DVCS (HG, GIT, ect.) and your favorite content languages (Markdown, Textile, pure HTML). Configuration is easy and can be done in your favorite configuration language (XML, JSON, YML, ect.). Short the perfect blog for developers.</description>
     <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
     <copyright>Copyright 2013</copyright>
-    <tags>Blog Markdown Textile XML JSON YML ASP.NET GIT HG DVCS VCS</tags>
+    <tags>Blog Markdown Textile XML JSON YML ASP.NET GIT HG DVCS VCS Mono</tags>
     <dependencies>
       <!--<dependency id="SampleDependency" version="1.0" />-->
     </dependencies>
