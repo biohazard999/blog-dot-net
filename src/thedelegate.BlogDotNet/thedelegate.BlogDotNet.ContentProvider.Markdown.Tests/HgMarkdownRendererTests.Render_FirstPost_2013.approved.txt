@@ -1,0 +1,5 @@
+﻿<h2>Markdown centric blog engine</h2>
+<p>There is an idea I've got a few years ago when i started blogging on our <a href="http://blog.paraoffice.at">companies developer blog</a> to use developer tools to drive a blog without having to force to use the browser to provide content for a blog.</p>
+<p>I like <a href="http://daringfireball.net/projects/markdown/">markdown</a> cause the ease of use and the ability to merge within a VCS with ease. Also the possibility to provide semantic HTML without loosing the human readability.</p>
+<p>The upcoming posts will document my progress to find/develop the <em>perfect</em> developer blog engine. </p>
+<p>Stay tuned :)</p>

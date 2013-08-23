@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Comment.cs" />
     <Compile Include="IConfiguration.cs" />
+    <Compile Include="IContentExecutor.cs" />
     <Compile Include="IContentProvider.cs" />
     <Compile Include="IPageLocation.cs" />
     <Compile Include="IPageRepository.cs" />
