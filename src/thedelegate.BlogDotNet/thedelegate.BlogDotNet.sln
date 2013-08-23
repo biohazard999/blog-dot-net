@@ -22,12 +22,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".project", ".project", "{A5
 	ProjectSection(SolutionItems) = preProject
 		..\..\favicon.ico = ..\..\favicon.ico
 		..\..\LICENSE = ..\..\LICENSE
+		..\..\pack.cmd = ..\..\pack.cmd
 		..\..\README.md = ..\..\README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thedelegate.BlogDotNet.ContentProvider.Markdown.Tests", "thedelegate.BlogDotNet.ContentProvider.Markdown.Tests\thedelegate.BlogDotNet.ContentProvider.Markdown.Tests.csproj", "{39278203-66BE-4A81-B6E8-71921DA07109}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thedelegate.BlogDotNet.ContentProvider.Markdown", "thedelegate.BlogDotNet.ContentProvider.Markdown\thedelegate.BlogDotNet.ContentProvider.Markdown.csproj", "{EE75B59B-37E6-4B51-92F0-4FF3E2D8FBE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thedelegate.BlogDotNet.ContentProvider.Textile", "thedelegate.BlogDotNet.ContentProvider.Textile\thedelegate.BlogDotNet.ContentProvider.Textile.csproj", "{B2D0CC88-C258-4185-AF1D-BBE0217F555C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thedelegate.BlogDotNet.ContentProvider.Textile.Tests", "thedelegate.BlogDotNet.ContentProvider.Textile.Tests\thedelegate.BlogDotNet.ContentProvider.Textile.Tests.csproj", "{CFE6F209-E981-4647-9D71-7D13C9BB8CDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +56,14 @@ Global
 		{EE75B59B-37E6-4B51-92F0-4FF3E2D8FBE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE75B59B-37E6-4B51-92F0-4FF3E2D8FBE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE75B59B-37E6-4B51-92F0-4FF3E2D8FBE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2D0CC88-C258-4185-AF1D-BBE0217F555C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D0CC88-C258-4185-AF1D-BBE0217F555C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D0CC88-C258-4185-AF1D-BBE0217F555C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D0CC88-C258-4185-AF1D-BBE0217F555C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFE6F209-E981-4647-9D71-7D13C9BB8CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE6F209-E981-4647-9D71-7D13C9BB8CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE6F209-E981-4647-9D71-7D13C9BB8CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE6F209-E981-4647-9D71-7D13C9BB8CDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,5 +73,7 @@ Global
 		{F846860C-B8FC-445D-BA7E-DAA2ACB96B71} = {88387E3C-D6A5-446A-9836-D26AD0FDB3C2}
 		{39278203-66BE-4A81-B6E8-71921DA07109} = {21F7BF49-E426-451A-8E80-929EEC963CD9}
 		{EE75B59B-37E6-4B51-92F0-4FF3E2D8FBE7} = {21F7BF49-E426-451A-8E80-929EEC963CD9}
+		{B2D0CC88-C258-4185-AF1D-BBE0217F555C} = {21F7BF49-E426-451A-8E80-929EEC963CD9}
+		{CFE6F209-E981-4647-9D71-7D13C9BB8CDC} = {21F7BF49-E426-451A-8E80-929EEC963CD9}
 	EndGlobalSection
 EndGlobal

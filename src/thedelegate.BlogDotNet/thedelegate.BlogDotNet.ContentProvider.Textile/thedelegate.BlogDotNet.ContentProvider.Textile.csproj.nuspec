@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>blog-dot-net-content-provider-textile</id>
+    <version>0.0.1-alpha</version>
+    <authors>Manuel Grundner</authors>
+    <owners>Manuel Grundner</owners>
+    <licenseUrl>https://github.com/biohazard999/blog-dot-net/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/biohazard999/blog-dot-net</projectUrl>
+    <iconUrl>https://github.com/biohazard999/blog-dot-net/blob/master/favicon.ico?raw=true</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Textile Content-Provider for blog-dot-net</description>
+    <releaseNotes>Alpha-Version for manual integration tests</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>Blog Markdown Textile XML JSON YML ASP.NET GIT HG DVCS VCS Mono</tags>
+    <dependencies>
+      <dependency id="blog-dot-net" version="0.0-alpha" />
+    </dependencies>
+  </metadata>
+</package>
