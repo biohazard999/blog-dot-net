@@ -12,5 +12,6 @@ namespace thedelegate.BlogDotNet
         public IEnumerable<string> Tags { get; set; }
         public IEnumerable<Comment> Comments { get; set; }
         public Page Page { get; set; }
+        public bool CommentsClosed { get; set; }
     }
 }

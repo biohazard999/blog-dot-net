@@ -115,5 +115,18 @@ namespace thedelegate.BlogDotNet.Tests
 
             pageEntry.Page.Should().Be(expected);
         }
+
+        [TestMethod]
+        public void CommentsClosed_Stores_Boolean()
+        {
+            bool expected = new Fixture().Create<bool>();
+
+            var pageEntry = new PageEntry()
+            {
+                CommentsClosed = expected
+            };
+
+            pageEntry.CommentsClosed.Should().Be(expected);
+        }
     }
 }
