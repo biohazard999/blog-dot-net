@@ -1,4 +1,5 @@
-﻿using FluentAssertions;
+﻿using System;
+using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Ploeh.AutoFixture;
 
@@ -14,12 +15,12 @@ namespace thedelegate.BlogDotNet.Tests
         {
             string expected = new Fixture().Create<string>();
 
-            var page = new Comment()
+            var comment = new Comment()
             {
                 Content = expected
             };
 
-            page.Content.Should().Be(expected);
+            comment.Content.Should().Be(expected);
         }
 
         [TestMethod]
@@ -28,6 +29,58 @@ namespace thedelegate.BlogDotNet.Tests
             IContentProvider provider = new Comment();
 
             provider.Should().BeAssignableTo<IContentProvider>();
+        }
+
+        [TestMethod]
+        public void FullName_Stores_StringValue()
+        {
+            string expected = new Fixture().Create<string>();
+
+            var comment = new Comment()
+            {
+                FullName = expected
+            };
+
+            comment.FullName.Should().Be(expected);
+        }
+
+        [TestMethod]
+        public void Email_Stores_StringValue()
+        {
+            string expected = new Fixture().Create<string>();
+
+            var comment = new Comment()
+            {
+                Email = expected
+            };
+
+            comment.Email.Should().Be(expected);
+        }
+
+        [TestMethod]
+        public void Homepage_Stores_StringValue()
+        {
+            string expected = new Fixture().Create<string>();
+
+            var comment = new Comment()
+            {
+                Homepage = expected
+            };
+
+            comment.Homepage.Should().Be(expected);
+        }
+
+        [TestMethod]
+        public void Date_Stores_NullableDateTime()
+        {
+            DateTime? expected = new Fixture().Create<DateTime?>();
+
+            var comment = new Comment()
+            {
+                Date = expected
+            };
+
+            comment.Date.Should().Be(expected);
         }
     }
 }
