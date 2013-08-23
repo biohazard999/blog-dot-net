@@ -29,6 +29,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>..\blog-dot-net.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -58,6 +64,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\blog-dot-net.pfx">
+      <Link>blog-dot-net.pfx</Link>
+    </None>
     <None Include="thedelegate.BlogDotNet.csproj.nuspec" />
   </ItemGroup>
   <ItemGroup>
