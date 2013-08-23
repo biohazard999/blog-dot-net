@@ -11,5 +11,6 @@ namespace thedelegate.BlogDotNet
         public DateTime? PublishDate { get; set; }
         public IEnumerable<string> Tags { get; set; }
         public IEnumerable<Comment> Comments { get; set; }
+        public Page Page { get; set; }
     }
 }

@@ -22,6 +22,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7F035D
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".project", ".project", "{A5E420A5-1C7E-482F-88DD-2E2C8A900043}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\LICENSE = ..\..\LICENSE
+		..\..\README.md = ..\..\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,8 +55,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{F846860C-B8FC-445D-BA7E-DAA2ACB96B71} = {88387E3C-D6A5-446A-9836-D26AD0FDB3C2}
 		{9B4FB877-60A6-4EE3-9DC4-160A72127C9C} = {88387E3C-D6A5-446A-9836-D26AD0FDB3C2}
+		{F846860C-B8FC-445D-BA7E-DAA2ACB96B71} = {88387E3C-D6A5-446A-9836-D26AD0FDB3C2}
 		{D2732447-E77D-48DF-8E32-F5BA950082CB} = {21F7BF49-E426-451A-8E80-929EEC963CD9}
 		{369AF934-BBDF-4C05-A22B-9DB022633D3B} = {21F7BF49-E426-451A-8E80-929EEC963CD9}
 	EndGlobalSection

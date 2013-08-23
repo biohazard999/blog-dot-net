@@ -42,6 +42,7 @@
     <Compile Include="Comment.cs" />
     <Compile Include="IPageLocation.cs" />
     <Compile Include="IPageLocator.cs" />
+    <Compile Include="Page.cs" />
     <Compile Include="PageEntry.cs" />
     <Compile Include="PageLocator.cs" />
     <Compile Include="PageState.cs" />

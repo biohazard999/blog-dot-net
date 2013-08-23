@@ -102,5 +102,18 @@ namespace thedelegate.BlogDotNet.Tests
 
             pageEntry.Comments.Should().BeAssignableTo<IEnumerable<Comment>>();
         }
+
+        [TestMethod]
+        public void Page_Stores_Page()
+        {
+            Page expected = new Fixture().Create<Page>();
+
+            var pageEntry = new PageEntry()
+            {
+                Page = expected
+            };
+
+            pageEntry.Page.Should().Be(expected);
+        }
     }
 }
