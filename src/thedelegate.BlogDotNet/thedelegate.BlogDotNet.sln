@@ -7,13 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thedelegate.BlogDotNet", "t
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thedelegate.BlogDotNet.Tests", "thedelegate.BlogDotNet.Tests\thedelegate.BlogDotNet.Tests.csproj", "{9B4FB877-60A6-4EE3-9DC4-160A72127C9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thedelegate.BlogDotNet.Render.MD", "thedelegate.BlogDotNet.Render.MD\thedelegate.BlogDotNet.Render.MD.csproj", "{369AF934-BBDF-4C05-A22B-9DB022633D3B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thedelegate.BlogDotNet.Render.MD.Tests", "thedelegate.BlogDotNet.Render.MD.Tests\thedelegate.BlogDotNet.Render.MD.Tests.csproj", "{D2732447-E77D-48DF-8E32-F5BA950082CB}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlogDotNet", "BlogDotNet", "{88387E3C-D6A5-446A-9836-D26AD0FDB3C2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Render", "Render", "{21F7BF49-E426-451A-8E80-929EEC963CD9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContentProviders", "ContentProviders", "{21F7BF49-E426-451A-8E80-929EEC963CD9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7F035DDB-DC94-4422-8004-3EF6E648FA17}"
 	ProjectSection(SolutionItems) = preProject
@@ -27,6 +23,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".project", ".project", "{A5
 		..\..\LICENSE = ..\..\LICENSE
 		..\..\README.md = ..\..\README.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thedelegate.BlogDotNet.ContentProvider.Markdown.Tests", "thedelegate.BlogDotNet.ContentProvider.Markdown.Tests\thedelegate.BlogDotNet.ContentProvider.Markdown.Tests.csproj", "{39278203-66BE-4A81-B6E8-71921DA07109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "thedelegate.BlogDotNet.ContentProvider.Markdown", "thedelegate.BlogDotNet.ContentProvider.Markdown\thedelegate.BlogDotNet.ContentProvider.Markdown.csproj", "{EE75B59B-37E6-4B51-92F0-4FF3E2D8FBE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,14 +42,14 @@ Global
 		{9B4FB877-60A6-4EE3-9DC4-160A72127C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B4FB877-60A6-4EE3-9DC4-160A72127C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B4FB877-60A6-4EE3-9DC4-160A72127C9C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{369AF934-BBDF-4C05-A22B-9DB022633D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{369AF934-BBDF-4C05-A22B-9DB022633D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{369AF934-BBDF-4C05-A22B-9DB022633D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{369AF934-BBDF-4C05-A22B-9DB022633D3B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D2732447-E77D-48DF-8E32-F5BA950082CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D2732447-E77D-48DF-8E32-F5BA950082CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D2732447-E77D-48DF-8E32-F5BA950082CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D2732447-E77D-48DF-8E32-F5BA950082CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39278203-66BE-4A81-B6E8-71921DA07109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39278203-66BE-4A81-B6E8-71921DA07109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39278203-66BE-4A81-B6E8-71921DA07109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39278203-66BE-4A81-B6E8-71921DA07109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE75B59B-37E6-4B51-92F0-4FF3E2D8FBE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE75B59B-37E6-4B51-92F0-4FF3E2D8FBE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE75B59B-37E6-4B51-92F0-4FF3E2D8FBE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE75B59B-37E6-4B51-92F0-4FF3E2D8FBE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,7 +57,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9B4FB877-60A6-4EE3-9DC4-160A72127C9C} = {88387E3C-D6A5-446A-9836-D26AD0FDB3C2}
 		{F846860C-B8FC-445D-BA7E-DAA2ACB96B71} = {88387E3C-D6A5-446A-9836-D26AD0FDB3C2}
-		{D2732447-E77D-48DF-8E32-F5BA950082CB} = {21F7BF49-E426-451A-8E80-929EEC963CD9}
-		{369AF934-BBDF-4C05-A22B-9DB022633D3B} = {21F7BF49-E426-451A-8E80-929EEC963CD9}
+		{39278203-66BE-4A81-B6E8-71921DA07109} = {21F7BF49-E426-451A-8E80-929EEC963CD9}
+		{EE75B59B-37E6-4B51-92F0-4FF3E2D8FBE7} = {21F7BF49-E426-451A-8E80-929EEC963CD9}
 	EndGlobalSection
 EndGlobal
