@@ -1,6 +1,6 @@
 ﻿namespace thedelegate.BlogDotNet
 {
-    public interface IContentExecutor
+    public interface IContentProcessor
     {
         IContentProvider FillProvider(IContentProvider provider);
     }
