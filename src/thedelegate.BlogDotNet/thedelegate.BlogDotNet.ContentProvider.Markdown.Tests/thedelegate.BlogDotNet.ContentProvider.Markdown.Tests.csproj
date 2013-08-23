@@ -88,7 +88,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="HgMarkdownRendererTests.Render_FirstPost_2013.approved.txt" />
+    <Content Include="MecurialMarkdownContentProcessorTests.Render_FirstPost_2013.approved.txt" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

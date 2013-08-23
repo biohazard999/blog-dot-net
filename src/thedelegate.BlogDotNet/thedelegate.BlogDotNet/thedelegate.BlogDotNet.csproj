@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Comment.cs" />
+    <Compile Include="Configuration.cs" />
     <Compile Include="IConfiguration.cs" />
     <Compile Include="IContentProcessor.cs" />
     <Compile Include="IContentProvider.cs" />
