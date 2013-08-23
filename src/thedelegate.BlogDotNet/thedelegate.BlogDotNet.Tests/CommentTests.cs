@@ -82,5 +82,18 @@ namespace thedelegate.BlogDotNet.Tests
 
             comment.Date.Should().Be(expected);
         }
+
+        [TestMethod]
+        public void IsSpam_Stores_Boolean()
+        {
+            bool expected = new Fixture().Create<bool>();
+
+            var comment = new Comment()
+            {
+                IsSpam = expected
+            };
+
+            comment.IsSpam.Should().Be(expected);
+        }
     }
 }

@@ -70,7 +70,7 @@
     <Compile Include="PageEntryTests.cs" />
     <Compile Include="PageTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PageLocatorTests.cs" />
+    <Compile Include="PageRepositoryTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\thedelegate.BlogDotNet\thedelegate.BlogDotNet.csproj">

@@ -40,12 +40,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Comment.cs" />
+    <Compile Include="IConfiguration.cs" />
     <Compile Include="IContentProvider.cs" />
     <Compile Include="IPageLocation.cs" />
-    <Compile Include="IPageLocator.cs" />
+    <Compile Include="IPageRepository.cs" />
     <Compile Include="Page.cs" />
     <Compile Include="PageEntry.cs" />
-    <Compile Include="PageLocator.cs" />
+    <Compile Include="PageRepository.cs" />
     <Compile Include="PageState.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

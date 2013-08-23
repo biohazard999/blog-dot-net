@@ -2,8 +2,9 @@
 
 namespace thedelegate.BlogDotNet
 {
-    public interface IPageLocator
+    public interface IPageRepository
     {
         IEnumerable<PageEntry> GetAllPageEntries();
+        IEnumerable<PageEntry> GetArchivePageEntries();
     }
 }

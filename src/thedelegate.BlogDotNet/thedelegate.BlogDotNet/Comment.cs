@@ -9,5 +9,6 @@ namespace thedelegate.BlogDotNet
         public DateTime? Date { get; set; }
         public string Homepage { get; set; }
         public string Email { get; set; }
+        public bool IsSpam { get; set; }
     }
 }
