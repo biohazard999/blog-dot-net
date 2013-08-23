@@ -7,14 +7,14 @@ using Ploeh.AutoFixture;
 namespace thedelegate.BlogDotNet.Tests
 {
     [TestClass]
-    public class PageTests
+    public class CommentTests
     {
         [TestMethod]
         public void Content_Stores_StringValue()
         {
             string expected = new Fixture().Create<string>();
 
-            var page = new Page()
+            var page = new Comment()
             {
                 Content = expected
             };
@@ -23,9 +23,9 @@ namespace thedelegate.BlogDotNet.Tests
         }
 
         [TestMethod]
-        public void Page_Implements_IContentProvider()
+        public void Comment_Implements_IContentProvider()
         {
-            IContentProvider provider = new Page();
+            IContentProvider provider = new Comment();
 
             provider.Should().BeAssignableTo<IContentProvider>();
         }

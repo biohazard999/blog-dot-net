@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Comment.cs" />
+    <Compile Include="IContentProvider.cs" />
     <Compile Include="IPageLocation.cs" />
     <Compile Include="IPageLocator.cs" />
     <Compile Include="Page.cs" />
