@@ -20,6 +20,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7F035D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".project", ".project", "{A5E420A5-1C7E-482F-88DD-2E2C8A900043}"
 	ProjectSection(SolutionItems) = preProject
+		..\..\favicon.ico = ..\..\favicon.ico
 		..\..\LICENSE = ..\..\LICENSE
 		..\..\README.md = ..\..\README.md
 	EndProjectSection
