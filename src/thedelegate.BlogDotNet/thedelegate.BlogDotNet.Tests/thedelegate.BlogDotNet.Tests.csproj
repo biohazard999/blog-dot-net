@@ -70,6 +70,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="AppConfigConfigurationProviderTests.cs" />
     <Compile Include="CommentTests.cs" />
     <Compile Include="ConfigurationTests.cs" />
     <Compile Include="PageEntryTests.cs" />
@@ -84,6 +85,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Choose>

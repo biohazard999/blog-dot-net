@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
@@ -46,9 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AppConfigConfigurationProvider.cs" />
     <Compile Include="Comment.cs" />
     <Compile Include="Configuration.cs" />
     <Compile Include="IConfiguration.cs" />
+    <Compile Include="IConfigurationProvider.cs" />
     <Compile Include="IContentProcessor.cs" />
     <Compile Include="IContentProvider.cs" />
     <Compile Include="IPageLocation.cs" />
